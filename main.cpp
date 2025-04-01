@@ -4,22 +4,22 @@ using namespace std;
 
 int main()
 {
-	int iNum1 = 20;
-	int iNum2 = 10;
+	int IntNum1 = 20;
+	int IntNum2 = 10;
 
-	float fNum1 = 20.1f;
-	float fNum2 = 10.0f;
+	float FloatNum1 = 20.1f;
+	float FloatNum2 = 10.0f;
 
-	cout << iNum1 + iNum2 << endl;
-	cout << iNum1 - iNum2 << endl;
-	cout << iNum1 * iNum2 << endl;
-	cout << iNum1 / iNum2 << endl;
-	cout << iNum1 % iNum2 << endl << endl;
+	cout << IntNum1 + IntNum2 << endl;
+	cout << IntNum1 - IntNum2 << endl;
+	cout << IntNum1 * IntNum2 << endl;
+	cout << IntNum1 / IntNum2 << endl;
+	cout << IntNum1 % IntNum2 << endl << endl;
 
-	cout << fNum1 + fNum2 << endl;
-	cout << fNum1 - fNum2 << endl;
-	cout << fNum1 * fNum2 << endl;
-	cout << fNum1 / fNum2 << endl;
+	cout << FloatNum1 + FloatNum2 << endl;
+	cout << FloatNum1 - FloatNum2 << endl;
+	cout << FloatNum1 * FloatNum2 << endl;
+	cout << FloatNum1 / FloatNum2 << endl;
 
 	return 0;
 }
